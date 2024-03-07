@@ -47,7 +47,7 @@
       </CookieManager>
       <hashTree/>
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Configuração dos dados CSV" enabled="false">
-        <stringProp name="filename">D:\projetos_jmeter\petstore\Script\data.dat</stringProp>
+        <stringProp name="filename">D:\Projetos JMeter\PetStore\Script\data.dat</stringProp>
         <stringProp name="fileEncoding">UTF-8</stringProp>
         <stringProp name="variableNames">categoryID,productID,itemID</stringProp>
         <boolProp name="ignoreFirstLine">true</boolProp>
@@ -59,7 +59,7 @@
       </CSVDataSet>
       <hashTree/>
       <com.blazemeter.jmeter.RandomCSVDataSetConfig guiclass="com.blazemeter.jmeter.RandomCSVDataSetConfigGui" testclass="com.blazemeter.jmeter.RandomCSVDataSetConfig" testname="bzm - Random CSV Data Set Config" enabled="true">
-        <stringProp name="filename">D:\projetos_jmeter\petstore\Script\data.dat</stringProp>
+        <stringProp name="filename">D:\Projetos JMeter\PetStore\Script\data.dat</stringProp>
         <stringProp name="fileEncoding">UTF-8</stringProp>
         <stringProp name="delimiter">,</stringProp>
         <stringProp name="variableNames">categoryID,productID,itemID</stringProp>
@@ -571,7 +571,7 @@
             <sampleCount>true</sampleCount>
           </value>
         </objProp>
-        <stringProp name="filename">D:\projetos_jmeter\petstore\result\PetStore</stringProp>
+        <stringProp name="filename">D:\Projetos JMeter\PetStore\Result\PetStore</stringProp>
       </ResultCollector>
       <hashTree/>
       <ProxyControl guiclass="ProxyControlGui" testclass="ProxyControl" testname="HTTP(S) Test Script Recorder" enabled="false">
