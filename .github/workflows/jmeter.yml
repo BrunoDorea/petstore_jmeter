@@ -12,12 +12,12 @@ jobs:
         test-plan-path: ./petstore_jmeter/script/PetStore.jmx
         args: "-e -o ./reports/html/"
         
-    - name: Upload Results
-      uses: actions/upload-artifact@v3
-      with:
-        name: jmeter-results
-        path: result.jtl
-        if-no-files-found: error
+    # - name: Upload Results
+    #   uses: actions/upload-artifact@v3
+    #   with:
+    #     name: jmeter-results
+    #     path: result.jtl
+    #     if-no-files-found: error
     
     - name: Upload HTML Reports
       uses: actions/upload-artifact@v3
